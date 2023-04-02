@@ -1,0 +1,322 @@
+@font-face {
+    font-family: myfont;
+    src: url(Font/Horizon.otf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.vc {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 17%;
+}
+
+.va {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    z-index: 3;
+    height: 20rem;
+    /* animation: vt 1s ease-in 0s forwards; */
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #e222d9, #e538db, #e849dc, #eb57de, #ee64e0, #ed65e1, #ec67e2, #eb68e3, #e65fe4, #e155e5, #db4be6, #d441e8);
+    position: absolute;
+    display: grid;
+    overflow: hidden;
+}
+
+.imgc {
+    width: 30rem;
+    height: 20rem;
+    position: absolute;
+    justify-self: center;
+    margin-top: 3rem;
+    display: grid;
+    border: 0.3rem solid rgb(172, 23, 23);
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.img {
+    height: 20rem;
+    width: inherit;
+    position: absolute;
+}
+
+.c {
+    display: grid;
+}
+
+.t {
+    position: absolute;
+    font-family: myfont;
+    font-size: 2.4rem;
+    color: rgb(255, 0, 187);
+    -webkit-text-stroke-width: 0.15rem;
+    -webkit-text-stroke-color: white;
+    justify-self: center;
+    align-self: center;
+}
+
+.t1 {
+    Width: 100%;
+}
+
+.tt {
+    margin-left: 2rem;
+    margin-top: 24rem;
+}
+
+.o-lywb {
+    margin-top: 9rem;
+    margin-left: -47rem;
+    animation: one 2.3s ease 0s forwards;
+}
+
+.t-sfas {
+    margin-top: 12rem;
+    margin-left: 62rem;
+    animation: two 1.5s ease 0.7s forwards;
+}
+
+.t-wcbm {
+    animation: three 1s ease 2.3s forwards;
+}
+
+.f-fod {
+    animation: four 0.9s ease 3.3s forwards;
+}
+
+.f-ltil {
+    margin-top: 9rem;
+    margin-left: -25rem;
+    animation: five 2s ease 4.2s forwards;
+}
+
+.s-aflf {
+    margin-top: 12rem;
+    margin-left: 62rem;
+    animation: six 1.7s ease 4.5s forwards;
+}
+
+.s-ltil {
+    animation: seven 0.6s ease 6.2s forwards;
+}
+
+.e-aflf {
+    animation: eight 1s ease 6.8s forwards;
+}
+
+.n-biwc {
+    margin-top: 9rem;
+    margin-left: -41rem;
+    animation: nine 2.2s ease 7.8s forwards;
+}
+
+.t-tas {
+    margin-top: 12rem;
+    margin-left: 62rem;
+    animation: ten 1s ease 9s forwards;
+}
+
+@keyframes one {
+    0% {
+        margin-left: -47rem;
+    }
+    17% {
+        margin-left: 11rem;
+    }
+    77% {
+        margin-left: 7rem;
+    }
+    100% {
+        margin-left: 62rem;
+    }
+}
+
+@keyframes two {
+    0% {
+        margin-left: 62rem;
+    }
+    24% {
+        margin-left: 13rem;
+    }
+    85% {
+        margin-left: 16rem;
+    }
+    100% {
+        margin-left: -33rem;
+    }
+}
+
+@keyframes three {
+    0% {
+        margin-top: 24rem;
+    }
+    10% {
+        margin-top: 11rem;
+    }
+    40% {
+        margin-top: 12.3rem;
+    }
+    70% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes four {
+    0% {
+        margin-top: 24rem;
+    }
+    10% {
+        margin-top: 11rem;
+    }
+    40% {
+        margin-top: 12.3rem;
+    }
+    70% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes five {
+    0% {
+        margin-left: -25rem;
+    }
+    27% {
+        margin-left: 18rem;
+    }
+    85% {
+        margin-left: 15rem;
+    }
+    100% {
+        margin-left: 62rem;
+    }
+}
+
+@keyframes six {
+    0% {
+        margin-left: 62rem;
+    }
+    17% {
+        margin-left: 4.5rem;
+    }
+    87% {
+        margin-left: 6rem;
+    }
+    100% {
+        margin-left: -48rem;
+    }
+}
+
+@keyframes seven {
+    0% {
+        margin-top: 24rem;
+    }
+    20% {
+        margin-top: 11rem;
+    }
+    70% {
+        margin-top: 12rem;
+    }
+    90% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes eight {
+    0% {
+        margin-top: 23rem;
+    }
+    20% {
+        margin-top: 11rem;
+    }
+    40% {
+        margin-top: 12rem;
+    }
+    90% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes nine {
+    0% {
+        margin-left: -41rem;
+    }
+    23% {
+        margin-left: 8rem;
+    }
+    95% {
+        margin-left: 6rem;
+    }
+    100% {
+        margin-left: 62rem;
+    }
+}
+
+@keyframes ten {
+    0% {
+        margin-left: 62rem;
+    }
+    23% {
+        margin-left: 9rem;
+    }
+    96% {
+        margin-left: 11rem;
+    }
+    100% {
+        margin-left: -36rem;
+    }
+}
+
+@keyframes vt {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes tv {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+/*# sourceMappingURL=Whenever Wherever.css.map */
