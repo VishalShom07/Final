@@ -71,8 +71,21 @@ body {
     align-self: center;
 }
 
+.s {
+    width: max-content;
+    margin-top: -24rem;
+}
+
 .t1 {
-    Width: 100%;
+    width: max-content;
+    margin-top: 9rem;
+    margin-left: -62rem;
+}
+
+.t2 {
+    width: max-content;
+    margin-top: 13rem;
+    margin-left: 62rem;
 }
 
 .tt {
@@ -80,89 +93,582 @@ body {
     margin-top: 24rem;
 }
 
-.o-lywb {
-    margin-top: 9rem;
-    margin-left: -47rem;
-    animation: one 2.3s ease 0s forwards;
+.lywb-1 {
+    animation: r 2.3s ease 0s forwards;
 }
 
-.t-sfas {
-    margin-top: 12rem;
-    margin-left: 62rem;
-    animation: two 1.5s ease 0.7s forwards;
+.sfas-2 {
+    animation: l 1.5s ease 0.7s forwards;
 }
 
-.t-wcbm {
-    animation: three 1s ease 2.3s forwards;
+.wcbm-3 {
+    animation: d 1s ease 2.3s forwards;
 }
 
-.f-fod {
-    animation: four 0.9s ease 3.3s forwards;
+.fod-4 {
+    animation: d 0.9s ease 3.3s forwards;
 }
 
-.f-ltil {
-    margin-top: 9rem;
-    margin-left: -25rem;
-    animation: five 2s ease 4.2s forwards;
+.ltil-5 {
+    animation: r 2s ease 4.2s forwards;
 }
 
-.s-aflf {
-    margin-top: 12rem;
-    margin-left: 62rem;
-    animation: six 1.7s ease 4.5s forwards;
+.aflf-6 {
+    animation: l 1.7s ease 4.5s forwards;
 }
 
-.s-ltil {
-    animation: seven 0.6s ease 6.2s forwards;
+.ltil-7 {
+    animation: d 0.6s ease 6.2s forwards;
 }
 
-.e-aflf {
-    animation: eight 1s ease 6.8s forwards;
+.aflf-8 {
+    animation: d 1s ease 6.8s forwards;
 }
 
-.n-biwc {
-    margin-top: 9rem;
-    margin-left: -41rem;
-    animation: nine 2.2s ease 7.8s forwards;
+.biwc-9 {
+    animation: r 2.2s ease 7.8s forwards;
 }
 
-.t-tas {
-    margin-top: 12rem;
-    margin-left: 62rem;
-    animation: ten 1s ease 9s forwards;
+.tas-10 {
+    animation: l 1s ease 9s forwards;
 }
 
-@keyframes one {
+.tctf-11 {
+    animation: d 1s ease 10s forwards;
+}
+
+.oyb-12 {
+    animation: d 1s ease 11s forwards;
+}
+
+.nci-13 {
+    animation: d 1s ease 12s forwards;
+}
+
+.two-14 {
+    animation: d 1s ease 13s forwards;
+}
+
+.t-15 {
+    animation: s15 0.5s ease 14s forwards;
+}
+
+.m-16 {
+    animation: s16 0.5s ease 14s forwards;
+}
+
+.wtl-17 {
+    animation: s17 1.3s ease 14.5s forwards, o 0s ease 15.3s forwards;
+}
+
+.s-18 {
+    animation: s18 0.5s ease 15.3s forwards, or 0s ease 15.8s forwards;
+}
+
+.le-19 {
+    animation: s19 0.6s ease 15.8s, s19-3 0.4s ease 16.4s, s19-5 1.3s ease 16.8s forwards;
+}
+
+.lo-20 {
+    animation: s20 0.6s ease 15.9s, s20-3 0.3s ease 16.5s, s20-5 1.3s ease 16.8s forwards;
+}
+
+.le-21 {
+    animation: s21 0.6s ease 16s, s21-3 0.2s ease 16.6s, s21-5 1.3s ease 16.8s forwards;
+}
+
+.lo-22 {
+    animation: s22 0.6s ease 16.1s, s22-3 0.1s ease 16.7s, s22-5 1.3s ease 16.8s forwards;
+}
+
+.le-23 {
+    animation: s23 0.6s ease 16.2s, s23-5 1.3s ease 16.8s forwards;
+}
+
+.le-24 {
+    animation: s24 0.6s ease 18.1s, s19-3 0.4s ease 18.7s, s19-5 0.8s ease 19.1s forwards;
+}
+
+.lo-25 {
+    animation: s25 0.6s ease 18.2s, s20-3 0.3s ease 18.8s, s20-5 0.8s ease 19.1s forwards;
+}
+
+.le-26 {
+    animation: s26 0.6s ease 18.3s, s21-3 0.2s ease 18.9s, s21-5 0.8s ease 19.1s forwards;
+}
+
+.lo-27 {
+    animation: s27 0.6s ease 18.4s, s22-3 0.1s ease 19s, s22-5 0.8s ease 19.1s forwards;
+}
+
+.le-28 {
+    animation: s28 0.6s ease 18.5s, s23-5 0.8s ease 19.1s forwards;
+}
+
+.cys-29 {
+    animation: r 1.6s ease 19.9s forwards;
+}
+
+.iayf-30 {
+    animation: l 2.5s ease 21.6s forwards;
+}
+
+.w-31 {
+    animation: s31 0.9s ease 24.1s, or 0s ease 24.1s forwards;
+}
+
+.w-32 {
+    animation: s31 0.9s ease 25s, or 0s ease 25.9s forwards;
+}
+
+.wm-33 {
+    animation: d 1.2s ease 25.9s forwards;
+}
+
+.tbt-34 {
+    animation: d 0.9s ease 27.1s forwards;
+}
+
+.ibta-35 {
+    animation: r 2.3s ease 28s forwards;
+}
+
+.ybn-36 {
+    animation: l 1.5s ease 28.8s forwards;
+}
+
+.ttd-37 {
+    animation: s37 1.2s ease 30.3s, s37-5 0.7s ease 31.5s forwards;
+}
+
+.md-38 {
+    animation: s38 0.2s ease 31.3s, s38-5 0.7s ease 31.5s forwards;
+}
+
+.to-39 {
+    animation: d 1s ease 32.2s forwards;
+}
+
+@keyframes s15 {
     0% {
-        margin-left: -47rem;
+        margin-top: 12rem;
+        margin-left: -35rem;
     }
-    17% {
-        margin-left: 11rem;
+    20% {
+        margin-top: 12rem;
+        margin-left: -8rem;
     }
-    77% {
-        margin-left: 7rem;
+    90% {
+        margin-top: 12rem;
+        margin-left: -6rem;
     }
     100% {
-        margin-left: 62rem;
+        margin-top: 24rem;
+        margin-left: -6rem;
     }
 }
 
-@keyframes two {
+@keyframes s16 {
+    0% {
+        margin-top: 12rem;
+        margin-left: 39rem;
+    }
+    20% {
+        margin-top: 12rem;
+        margin-left: 8rem;
+    }
+    90% {
+        margin-top: 12rem;
+        margin-left: 6rem;
+    }
+    100% {
+        margin-top: 24rem;
+        margin-left: 6rem;
+    }
+}
+
+@keyframes s17 {
+    0% {
+        margin-top: 24rem;
+        font-size: 2.4rem;
+    }
+    25% {
+        margin-top: 12rem;
+        font-size: 2.4em;
+    }
+    45% {
+        margin-top: 12rem;
+        font-size: 2.2em;
+    }
+    100% {
+        margin-top: 12rem;
+        font-size: 2rem;
+    }
+}
+
+@keyframes s18 {
+    0% {
+        margin-top: 12rem;
+        font-size: 2rem;
+    }
+    85% {
+        margin-top: 12rem;
+        font-size: 2.4rem;
+    }
+    100% {
+        margin-top: 24rem;
+        font-size: 2.4rem;
+    }
+}
+
+@keyframes s19 {
+    0% {
+        margin-top: 28rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: -6rem;
+    }
+}
+
+@keyframes s19-3 {
+    0% {
+        margin-top: 11rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: -6rem;
+    }
+}
+
+@keyframes s19-5 {
+    0% {
+        margin-top: 11rem;
+        margin-left: -6rem;
+    }
+    20% {
+        margin-top: 12.3rem;
+        margin-left: -6rem;
+    }
+    70% {
+        margin-top: 11rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 24rem;
+        margin-left: -6rem;
+    }
+}
+
+@keyframes s20 {
+    0% {
+        margin-top: 28rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: -2rem;
+    }
+}
+
+@keyframes s20-3 {
+    0% {
+        margin-top: 11rem;
+        margin-left: -2rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: -2rem;
+    }
+}
+
+@keyframes s20-5 {
+    0% {
+        margin-top: 11rem;
+        margin-left: -2rem;
+    }
+    20% {
+        margin-top: 12.3rem;
+    }
+    70% {
+        margin-top: 11rem;
+        margin-left: -2rem;
+    }
+    100% {
+        margin-top: 24rem;
+        margin-left: -2rem;
+    }
+}
+
+@keyframes s21 {
+    0% {
+        margin-top: 28rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+}
+
+@keyframes s21-3 {
+    0% {
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+}
+
+@keyframes s21-5 {
+    0% {
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+    20% {
+        margin-top: 12.3rem;
+    }
+    70% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+        margin-left: 2rem;
+    }
+}
+
+@keyframes s22 {
+    0% {
+        margin-top: 28rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 6rem;
+    }
+}
+
+@keyframes s22-3 {
+    0% {
+        margin-top: 11rem;
+        margin-left: 6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 6rem;
+    }
+}
+
+@keyframes s22-5 {
+    0% {
+        margin-top: 11rem;
+        margin-left: 6rem;
+    }
+    20% {
+        margin-top: 12.3rem;
+    }
+    70% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+        margin-left: 6rem;
+    }
+}
+
+@keyframes s23 {
+    0% {
+        margin-top: 28rem;
+        margin-left: -6rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 10rem;
+    }
+}
+
+@keyframes s23-3 {
+    0% {
+        margin-top: 11rem;
+        margin-left: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 10rem;
+    }
+}
+
+@keyframes s23-5 {
+    0% {
+        margin-top: 11rem;
+        margin-left: 10rem;
+    }
+    20% {
+        margin-top: 12.3rem;
+    }
+    70% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 24rem;
+        margin-left: 10rem;
+    }
+}
+
+@keyframes s24 {
+    0% {
+        margin-top: 24rem;
+        margin-left: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: -6rem;
+    }
+}
+
+@keyframes s25 {
+    0% {
+        margin-top: 24rem;
+        margin-left: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: -2rem;
+    }
+}
+
+@keyframes s26 {
+    0% {
+        margin-top: 24rem;
+        margin-left: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+}
+
+@keyframes s27 {
+    0% {
+        margin-top: 24rem;
+        margin-left: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 6rem;
+    }
+}
+
+@keyframes s28 {
+    0% {
+        margin-top: 24rem;
+        margin-left: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        margin-left: 10rem;
+    }
+}
+
+@keyframes s31 {
+    0% {
+        margin-top: 9rem;
+        font-size: 1.9rem;
+    }
+    20% {
+        margin-top: 11rem;
+    }
+    50% {
+        margin-top: 10rem;
+    }
+    100% {
+        margin-top: 11rem;
+        font-size: 2.4rem;
+    }
+}
+
+@keyframes s37 {
+    0% {
+        margin-top: -24rem;
+    }
+    20% {
+        margin-top: 9rem;
+    }
+    100% {
+        margin-top: 8rem;
+    }
+}
+
+@keyframes s37-5 {
+    0% {
+        margin-top: 8rem;
+    }
+    60% {
+        margin-top: 7rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s38 {
+    0% {
+        margin-top: 8rem;
+        font-size: 2rem;
+    }
+    100% {
+        margin-top: 11rem;
+        font-size: 2.4rem;
+    }
+}
+
+@keyframes s38-5 {
+    0% {
+        margin-top: 11rem;
+    }
+    60% {
+        margin-top: 10rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes l {
     0% {
         margin-left: 62rem;
     }
     24% {
-        margin-left: 13rem;
+        margin-left: -1.5rem;
     }
     85% {
-        margin-left: 16rem;
+        margin-left: 1.5rem;
     }
     100% {
-        margin-left: -33rem;
+        margin-left: -62rem;
     }
 }
 
-@keyframes three {
+@keyframes r {
+    0% {
+        margin-left: -62rem;
+    }
+    24% {
+        margin-left: 1.5rem;
+    }
+    85% {
+        margin-left: -1.5rem;
+    }
+    100% {
+        margin-left: 62rem;
+    }
+}
+
+@keyframes d {
     0% {
         margin-top: 24rem;
     }
@@ -180,121 +686,7 @@ body {
     }
 }
 
-@keyframes four {
-    0% {
-        margin-top: 24rem;
-    }
-    10% {
-        margin-top: 11rem;
-    }
-    40% {
-        margin-top: 12.3rem;
-    }
-    70% {
-        margin-top: 11rem;
-    }
-    100% {
-        margin-top: 24rem;
-    }
-}
-
-@keyframes five {
-    0% {
-        margin-left: -25rem;
-    }
-    27% {
-        margin-left: 18rem;
-    }
-    85% {
-        margin-left: 15rem;
-    }
-    100% {
-        margin-left: 62rem;
-    }
-}
-
-@keyframes six {
-    0% {
-        margin-left: 62rem;
-    }
-    17% {
-        margin-left: 4.5rem;
-    }
-    87% {
-        margin-left: 6rem;
-    }
-    100% {
-        margin-left: -48rem;
-    }
-}
-
-@keyframes seven {
-    0% {
-        margin-top: 24rem;
-    }
-    20% {
-        margin-top: 11rem;
-    }
-    70% {
-        margin-top: 12rem;
-    }
-    90% {
-        margin-top: 11rem;
-    }
-    100% {
-        margin-top: 24rem;
-    }
-}
-
-@keyframes eight {
-    0% {
-        margin-top: 23rem;
-    }
-    20% {
-        margin-top: 11rem;
-    }
-    40% {
-        margin-top: 12rem;
-    }
-    90% {
-        margin-top: 11rem;
-    }
-    100% {
-        margin-top: 24rem;
-    }
-}
-
-@keyframes nine {
-    0% {
-        margin-left: -41rem;
-    }
-    23% {
-        margin-left: 8rem;
-    }
-    95% {
-        margin-left: 6rem;
-    }
-    100% {
-        margin-left: 62rem;
-    }
-}
-
-@keyframes ten {
-    0% {
-        margin-left: 62rem;
-    }
-    23% {
-        margin-left: 9rem;
-    }
-    96% {
-        margin-left: 11rem;
-    }
-    100% {
-        margin-left: -36rem;
-    }
-}
-
-@keyframes vt {
+@keyframes o {
     0% {
         opacity: 1;
     }
@@ -303,9 +695,18 @@ body {
     }
 }
 
-@keyframes tv {
+@keyframes or {
     0% {
         opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes no {
+    0% {
+        opacity: 1;
     }
     100% {
         opacity: 1;
