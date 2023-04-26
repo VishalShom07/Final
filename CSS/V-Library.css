@@ -21,10 +21,11 @@ body {
 
 .va {
     position: absolute;
-    justify-self: center;
-    align-self: center;
+    justify-self: baseline;
+    align-self: first baseline;
+    height: 0.1rem;
+    width: 0.1rem;
     z-index: 3;
-    height: 20rem;
     opacity: 0;
 }
 
@@ -172,7 +173,7 @@ body {
     width: 12rem;
     height: 12rem;
     position: absolute;
-    z-index: 3;
+    z-index: 7;
 }
 
 .b1::after {
