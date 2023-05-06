@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(234, 10, 10);
+}
+
+.h {
+    width: 100%;
+    color: rgb(43, 255, 10);
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.p {
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.7rem;
+    padding-top: 2rem;
+}
+
+.s0 {
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.7rem;
+    padding-top: 2rem;
+}
+
+.s1 {
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.7rem;
+    padding-top: 1rem;
+}
+
+.s1ip {
+    width: 100%;
+    display: grid;
+}
+
+.s1i {
+    margin: 1.5rem;
+    width: 30rem;
+    justify-self: center;
+}
+
+.s2 {
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.5rem;
+}
+
+.s2bp {
+    width: 100%;
+    display: grid;
+}
+
+.bb {
+    color: blue;
+    background-color: yellow;
+    border-radius: 3rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.7rem;
+    font-size: 1.3rem;
+    justify-self: center;
+}
+
+.s3 {
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.7rem;
+}
+
+.s4 {
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.7rem;
+}
+
+.te {
+    color: rgb(249, 249, 53);
+    font-size: 2rem;
+    padding: 1.7rem;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 55%;
+    }
+}
